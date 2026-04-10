@@ -1,19 +1,21 @@
 // Listas de imágenes
 const listaCabezas = [
-  "../base-bestiario/assets/img/cabeza1.jpg",
-  "../base-bestiario/assets/img/cabeza2.jpg",
-  "../base-bestiario/assets/img/cabeza3.png",
+  "/assets/img/cholao.jpg",
+  "/assets/img/icedcoffee.jpg",
+  "/assets/img/michelada.jpg",
 ];
 const listaTroncos = [
- "../base-bestiario/assets/img/tronco1.jpg",
-  "../base-bestiario/assets/img/tronco2.jpg",
-  "../base-bestiario/assets/img/tronco3.jpg",
+ "/assets/img/coca.png",
+  "/assets/img/fernet.jpg",
+  "/assets/img/tampico.png",
 ];
 const listaPatas = [
-  "../base-bestiario/assets/img/patas1.jpg",
-  "../base-bestiario/assets/img/patas2.jpg",
-  "../base-bestiario/assets/img/patas3.png",
+  "/assets/img/vino.png",
+  "/assets/img/limonada.jpg",
+  "/assets/img/stanley.jpg",
 ];
+
+const sonido = new Audio("/assets/audio/charli.mp3");
 
 // Obtenemos los contenedores de las imágenes del HTML usando los IDs
 const cabeza = document.getElementById("cabeza");
@@ -48,6 +50,7 @@ function generarBestia() {
 // Generamos un nuevo collage cada vez que hacemos click en el botón "mezclar"
 boton.addEventListener("click", function () {
   generarBestia();
+  sonido.currentTime = 0; // reinicia el audio si ya había sonado
+  sonido.play();
 });
 
-generarBestia();
