@@ -1,18 +1,18 @@
 // Listas de imágenes
 const listaCabezas = [
-  "../ahbestia/assets/img/cholao.jpg",
-  "../ahbestia/assets/img/icedcoffee.jpg",
-  "../ahbestia/assets/img/michelada.jpg",
+  "maribucheli/ahbestia/assets/img/cholao.jpg",
+  "maribucheli/ahbestia/assets/img/icedcoffee.jpg",
+  "maribucheli/ahbestia/assets/img/michelada.jpg",
 ];
 const listaTroncos = [
- "../ahbestia/assets/img/coca.png",
-  "../ahbestia/assets/img/fernet.jpg",
-  "../ahbestia/assets/img/tampico.png",
+ "maribucheli/ahbestia/assets/img/coca.png",
+  "maribucheli/ahbestia/assets/img/fernet.jpg",
+  "maribucheli/ahbestia/assets/img/tampico.png",
 ];
 const listaPatas = [
-  "../ahbestia/assets/img/vino.png",
-  "../ahbestia/assets/img/limonada.jpg",
-  "../ahbestia/assets/img/stanley.jpg",
+  "maribucheli/ahbestia/assets/img/vino.png",
+  "maribucheli/ahbestia/assets/img/limonada.jpg",
+  "maribucheli/ahbestia/assets/img/stanley.jpg",
 ];
 
 const sonido = new Audio("/assets/audio/charli.mp3");
