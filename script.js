@@ -1,18 +1,18 @@
 // Listas de imágenes
 const listaCabezas = [
-  "/assets/img/cholao.jpg",
-  "/assets/img/icedcoffee.jpg",
-  "/assets/img/michelada.jpg",
+  "../ahbestia/assets/img/cholao.jpg",
+  "../ahbestia/assets/img/icedcoffee.jpg",
+  "../ahbestia/assets/img/michelada.jpg",
 ];
 const listaTroncos = [
- "/assets/img/coca.png",
-  "/assets/img/fernet.jpg",
-  "/assets/img/tampico.png",
+ "../ahbestia/assets/img/coca.png",
+  "../ahbestia/assets/img/fernet.jpg",
+  "../ahbestia/assets/img/tampico.png",
 ];
 const listaPatas = [
-  "/assets/img/vino.png",
-  "/assets/img/limonada.jpg",
-  "/assets/img/stanley.jpg",
+  "../ahbestia/assets/img/vino.png",
+  "../ahbestia/assets/img/limonada.jpg",
+  "../ahbestia/assets/img/stanley.jpg",
 ];
 
 const sonido = new Audio("/assets/audio/charli.mp3");
