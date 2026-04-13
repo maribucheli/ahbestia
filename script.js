@@ -35,6 +35,7 @@ const cabeza = document.getElementById("cabeza");
 const tronco = document.getElementById("tronco");
 const patas = document.getElementById("patas");
 const boton = document.getElementById("boton");
+const saludo = document.getElementById("saludo");
 
 // Inicializamos las variables de los números aleatorios
 let cabezaAleatorio = 0;
@@ -66,5 +67,11 @@ boton.addEventListener("click", function () {
   sonido.currentTime = 0; // reinicia el audio si ya había sonado
   sonido.play();
 });
+
+
+///datos usuario///
+let nombre = prompt("¿Cómo te llamas?");
+
+saludo.innerText = "Hola, " + nombre + ". Vamos a ver qué bebida loca te toca fondear."; 
 
 generarBestia();
