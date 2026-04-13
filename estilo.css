@@ -11,6 +11,10 @@ body {
   margin: 0;
   padding: 0;
   background-image: url("assets/img/bar.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
 }
 
 ::selection {
@@ -69,4 +73,12 @@ a, a:active, a:visited, a:hover {
   color: black;
   cursor: pointer;
   font-family: "Caveat", system-ui;
+}
+
+
+@media (max-width: 600px) {
+
+body {
+  min-height: 100vh;
+}
 }

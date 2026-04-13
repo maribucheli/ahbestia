@@ -1,21 +1,34 @@
 // Listas de imágenes
 const listaCabezas = [
-  "assets/img/cholao.jpg",
-  "assets/img/icedcoffee.jpg",
-  "assets/img/michelada.jpg",
+  "assets/img/cholao.png",
+  "assets/img/icedcoffee.png",
+  "assets/img/michelada.png",
+  "assets/img/ponymalta.png",
+  "assets/img/pepsi.png",
+  "assets/img/jugohit2.png",
+  "assets/img/champagne.png",
+  "assets/img/starbucks.png",
 ];
 const listaTroncos = [
  "assets/img/coca.png",
-  "assets/img/fernet.jpg",
+  "assets/img/fernet.png",
   "assets/img/tampico.png",
+  "assets/img/energizante.png",
+  "assets/img/starbucks2.png",
+  "assets/img/ron.png",
+  "assets/img/mrtea.png",
 ];
 const listaPatas = [
   "assets/img/vino.png",
-  "assets/img/limonada.jpg",
-  "assets/img/stanley.jpg",
+  "assets/img/limonada.png",
+  "assets/img/stanley.png",
+  "assets/img/starbucks3.png",
+  "assets/img/starbucks4.png",
+  "assets/img/granada.png",
+  "assets/img/smirnoff.png",
 ];
 
-const sonido = new Audio("assets/audio/charli.mp3");
+const sonido = new Audio("assets/audio/charlixcx.mp3");
 
 // Obtenemos los contenedores de las imágenes del HTML usando los IDs
 const cabeza = document.getElementById("cabeza");
@@ -54,3 +67,4 @@ boton.addEventListener("click", function () {
   sonido.play();
 });
 
+generarBestia();
